@@ -25,7 +25,7 @@ public class TwoSum {
     }
 
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
+
         int [] nums = {0,-1,2,-3,1};
         int target= -2;
 
