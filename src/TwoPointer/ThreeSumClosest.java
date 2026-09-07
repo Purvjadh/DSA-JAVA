@@ -3,7 +3,7 @@ package TwoPointer;
 import java.util.Arrays;
 
 public class ThreeSumClosest {
-    public static int threeSum(int arr[],int target){
+    public static int threeSum(int[] arr,int target){
         Arrays.sort(arr);
         int n = arr.length;
         int resultSum=arr[0] + arr[1]+arr[2];
